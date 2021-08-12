@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="ind.css">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Form</title>
+</head>
+<body>
+    <form name="myForm" action="/action_page.php" onsubmit="return checkforblank()" method="post"required>
+    <div class="a">
+    <p class="z">START LEARNING!!</p>
+    <div>
+    <div>
+    <input type="email" placeholder="Email" name="email" id="email" >
+</div>
+    <div>
+    <input type="password" placeholder="Password" name="password1" id="password1" >
+    <span class="eye"><i class="fa fa-eye" aria-hidden="true" id="eye1" onclick="toggle()"></i></span>
+    </div>
+</div>
+    <input type="submit" placeholder="submit">
+    <p class="av">Or <a href="register.html">Create Account</a></p>
+    <div class="xx"> <a href="forgetpass.html">Forget Password</a>
+    </div>
+     <span class="abc"><a href="https://touch.facebook.com/">Sign in with<span><i class="fa fa-facebook-official" aria-hidden="true"></i></span></span></a>
+    ||
+    <span class="abc"><a href ="https://accounts.google.com/ServiceLogin?service=chromiumsync">Sign in with<span><i class="fa fa-google-plus-official" aria-hidden="true"></i></span> </span></a>
+    
+
+</div>
+</form>
+<script src="ind.js"></script>
+</body>
+</html>

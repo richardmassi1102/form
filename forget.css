@@ -1,0 +1,18 @@
+body{
+     background: url(https://i.pinimg.com/originals/4a/94/26/4a94268541d7a0ed95a8be5138e8a288.jpg);
+}
+.ri{
+     border:2px solid black;
+     border-radius: 5px;
+     width:50%;
+     margin:auto;
+     margin-top: 15%;
+     padding-bottom: 15px;
+     text-align: center;
+     background-color: cyan;
+}
+form input{
+     padding: 7px;
+}
+
+}

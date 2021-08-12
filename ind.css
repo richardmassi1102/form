@@ -1,0 +1,58 @@
+body{
+     background: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);
+}
+.a{
+    border:2px solid black;
+    width:50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: rgb(195, 135, 235);
+    padding-bottom:30px ;
+
+
+}
+
+form input{
+    border-radius: 15px;
+    padding: 10px;
+     margin:1%;
+     width: 40%;
+     text-align: center;
+}
+input[type=submit]
+{
+    background-color: orange;
+    width: 20%;
+}
+.z{
+    font-family: helvetica;
+    font-size: 30px;
+}
+.av{
+    border: 2px solid blue;
+    width: 30%;
+    margin:auto ;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 9px;
+    border-radius: 15px;
+    padding-bottom: 4px;
+    background-color: rgb(171, 189, 107);
+}
+.xx{
+    margin:5px;
+    margin-bottom: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif (serif);
+
+}
+.abc{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.eye{
+    position: absolute;
+     margin-top: 15px;
+     cursor: pointer;
+}
